@@ -9,5 +9,18 @@
 
 .skills i:hover {
     color: rgba(255, 145, 0, 1);
-    top: -5px;
+    top: -8px;
 }
+
+#github,
+#contactbtn {
+    background-color: rgba(255, 145, 0, 1);
+    border-color: rgba(255, 145, 0, 1);
+}
+
+#github:hover,
+#contactbtn:hover {
+    background-color: rgba(255, 145, 0, .5);
+    border-color: rgba(255, 145, 0, 0.5);
+}
+
