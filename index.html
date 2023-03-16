@@ -156,16 +156,27 @@
     </div>
     <!-- Projects end -->
 
-    <!-- Contact -->
-    <div class="justify-content-center d-flex row text-center m-5" id="contact">
-      <h2 class="fw-bold">hello@benelstub.dev</h2>
-      <a href="mailto:hello@benelstub.dev" class="btn btn-primary btn-lg btn-block col-5 m-3 fw-bold"
-        id="contactbtn">Contact
-        me</a>
-
-    </div>
-    <!-- Contact end -->
-
+    <!-- Contact form -->
+    <div class="container mt-5" id="contact">
+      <h2>Want to say hi?</h2>
+      <h3 class="small" style="color: #ffa200">hello@benelstub.dev</h3>
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="contactbtn">Submit</button>
+      </form>
+  </div>
+  <!-- Contact form end -->
 
   </div>
   <!-- Main container end -->
